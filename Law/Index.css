@@ -77,27 +77,27 @@ header h4 a:hover{
         position: absolute;
         font-size: 4vw;
         left:40vw;
-        top:40vh;
+        top:43vh;
         transform:translate(-50%);
     }
     header h2 a{
         position: absolute;
         font-size: 4vw;
         left:70vw;
-        top:60vh;
+        top:57vh;
         transform:translate(-50%);
     }
     header h3 a{
         position: absolute;
         font-size: 4vw;
         left:30vw;
-        top:77vh;
+        top:71vh;
         transform:translate(-50%);
     }
     header h4 a{
         position: absolute;
         font-size: 4vw;
-        left:65vw;
+        left:60vw;
         top:90vh;
         transform:translate(-50%);
     }
