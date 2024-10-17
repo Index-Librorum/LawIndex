@@ -24,30 +24,6 @@ header a{
 header a:hover{
     text-decoration: underline; 
 }
-.Producer{
-    left:33vw;
-    position: absolute;
-}
-.Producer h2{
-    font-size: 1.5vw;
-    color: blueviolet;
-}
-.Producer p{
-    font-size: 0.8vw;
-    color: gray;
-}
-.Helper{
-    left:40vw;
-    position: absolute;
-}
-.Helper h2{
-    font-size: 1.5vw;
-    color: blueviolet;
-}
-.Helper p{
-    font-size: 0.8vw;
-    color: gray;
-}
 /*響応式  */
 @media screen and (max-width:768px)
 {
@@ -57,29 +33,5 @@ header a:hover{
         left:50vw;
         top:65vh;
         transform:translate(-50%);
-    }
-    .Producer{
-        left:0vw;
-        position: absolute;
-    }
-    .Producer h2{
-        font-size: 6vw;
-        color: blueviolet;
-    }
-    .Producer p{
-        font-size: 2.8vw;
-        color: gray;
-    }
-    .Helper{
-        left:25vw;
-        position: absolute;
-    }
-    .Helper h2{
-        font-size: 6vw;
-        color: blueviolet;
-    }
-    .Helper p{
-        font-size: 2.8vw;
-        color: gray;
     }
 }
