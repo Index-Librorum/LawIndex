@@ -39,6 +39,13 @@ header h2 a{
 header h2 a:hover{
     text-decoration: underline; 
 }
+header h3{
+    position: absolute;
+    font-size: 2vw;
+    left:40vw;
+    top:33vh;
+    width:30%;
+}
 /*響応式  */
 @media screen and (max-width:768px)
 {
@@ -55,5 +62,10 @@ header h2 a:hover{
         left:70vw;
         top:78vh;
         transform:translate(-50%);
+    }
+    header h3{
+        font-size: 5vw;
+        width: 60%;
+        left: 25vw;
     }
 }
