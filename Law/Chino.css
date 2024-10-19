@@ -25,6 +25,16 @@ header a{
 header a:hover{
     text-decoration: underline; 
 }
+img {
+    width:200px;
+    left:32vw;
+    position:absolute;
+}
+h6 {
+    position:absolute;
+    bottom: 0;
+    left: 32vw;
+}
 /*響応式  */
 @media screen and (max-width:768px)
 {
@@ -34,5 +44,14 @@ header a:hover{
         left:27vw;
         top:65vh;
         transform:translate(-50%);
+    }
+    img {
+        left:0vw;
+        position:absolute;
+    }
+    h6 {
+        position:absolute;
+        bottom: 0;
+        left: 0vw;
     }
 }
