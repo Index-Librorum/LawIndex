@@ -47,7 +47,7 @@ header img {
 }
 h6 {
     position: absolute;
-    bottom: -15vh;
+    bottom: 0vh;
     left: 32vw;
 }
 footer{
@@ -59,7 +59,7 @@ footer{
     header h1 {
         font-size: 5vw;
         line-height: 20vh;
-        left: 50vw;
+        right: 10vw;
         position: absolute;
     }
     .Louise{
@@ -90,7 +90,7 @@ footer{
     }
     h6 {
         position: absolute;
-        top:200vh;
+        top:150vh;
         left: 0;
     }
 }
