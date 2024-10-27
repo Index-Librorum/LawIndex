@@ -10,7 +10,7 @@ header{
     background-size:contain;
     background-position:center;
 }
-header a{
+header h1 a{
     color:rgb(110, 110, 243);
     text-decoration: none;
     position: absolute;
@@ -21,16 +21,26 @@ header a{
     padding:10px 20px;
     border-radius: 5px;
 }
-header a:hover{
+header h1 a:hover{
     text-decoration: underline; 
+}
+header a{
+    position: absolute;
+    left:34vw;
+    transform:translate(-43%);
 }
 /*響応式  */
 @media screen and (max-width:768px)
 {
-    header a{
+    header h1 a{
         position: absolute;
         left:25vw;
         top:55vh;
         transform:translate(-25%);
+    }
+    header a{
+        position: absolute;
+        left:5vw;
+        transform:translate(-43%);
     }
 }

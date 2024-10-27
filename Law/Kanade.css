@@ -36,6 +36,9 @@ header h1{
     font-size: 3vw;
     text-decoration: none;
     color: gray;
+    border: 3px gray solid;
+    padding:5px 10px 5px;
+    border-radius: 5px;
 }
 .Louise h3 a:hover{
     text-decoration: underline; 
@@ -47,11 +50,8 @@ header img {
 }
 h6 {
     position: absolute;
-    bottom: 0vh;
+    bottom: -10vh;
     left: 32vw;
-}
-footer{
-    background-color:rgb(24, 24, 224);
 }
 /*響応式  */
 @media screen and (max-width:768px)
@@ -90,7 +90,7 @@ footer{
     }
     h6 {
         position: absolute;
-        top:150vh;
+        top:160vh;
         left: 0;
     }
 }

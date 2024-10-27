@@ -2,11 +2,3 @@
     padding: 0;
     margin: 0;
 }
-header ul {
-    position:absolute;
-    bottom:0;
-}
-header button{
-    bottom:10vh;
-    left:33vw;
-}

@@ -3,7 +3,7 @@
     margin: 0;
 }
 header{
-    background-image: url(images/Louise.png);
+    background-image: url(images/RailgunT.png);
     width:100%;
     height: 100vh;
     background-repeat: no-repeat;
@@ -13,15 +13,31 @@ header{
 header h1 a{
     color:black;
     text-decoration: none;
-    position: relative;
+    position: absolute;
     font-size: 2vw;
-    left: 46vw;
+    left:40vw;
     top:83vh;
+    transform:translate(-45%);
     border:3px gray solid;
     padding:5px 10px;
     border-radius: 10px;
 }
 header h1 a:hover{
+    text-decoration: underline; 
+}
+header h2 a{
+    color:black;
+    position: absolute;
+    font-size: 2vw;
+    left:60vw;
+    top:83vh;
+    transform:translate(-56%);
+    border:3px gray solid;
+    padding:5px 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+header h2 a:hover{
     text-decoration: underline; 
 }
 /*響応式  */
@@ -30,6 +46,14 @@ header h1 a:hover{
     header h1 a{
         position: absolute;
         font-size: 5vw;
+        left:30vw;
+        top:78vh;
+        transform:translate(-50%);
+    }
+    header h2 a{
+        position: absolute;
+        font-size: 5vw;
+        left:70vw;
         top:78vh;
         transform:translate(-50%);
     }

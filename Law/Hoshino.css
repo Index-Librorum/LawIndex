@@ -4,7 +4,8 @@
 }
 video {
     position: absolute;
-    left:2vw;
+    left:1vw;
+    top:3vw;
     width:90%;
 }
 /*響応式  */

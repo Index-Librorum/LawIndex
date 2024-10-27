@@ -10,7 +10,7 @@ header{
     background-size:contain;
     background-position:center;
 }
-header a{
+header h1 a{
     color:rgb(101, 148, 31);
     text-decoration: none;
     position: absolute;
@@ -21,7 +21,7 @@ header a{
     padding:10px 20px;
     border-radius: 5px;
 }
-header a:hover{
+header h1 a:hover{
     text-decoration: underline; 
 }
 img {
@@ -34,14 +34,18 @@ h6 {
     bottom: 0;
     left: 32vw;
 }
+header a{
+    left:63vw;
+    position:absolute;
+}
 /*響応式  */
 @media screen and (max-width:768px)
 {
-    header a{
+    header h1 a{
         position: absolute;
         font-size: 4vw;
         left:50vw;
-        top:65vh;
+        top:68vh;
         transform:translate(-50%);
     }
     img {
@@ -53,5 +57,9 @@ h6 {
         position:absolute;
         bottom: 0;
         left: 0vw;
+    }
+    header a{
+        right: 0;
+        position:absolute;
     }
 }

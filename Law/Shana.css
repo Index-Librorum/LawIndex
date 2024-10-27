@@ -35,6 +35,7 @@ header h2 a{
     border:3px gray solid;
     padding:5px 10px;
     border-radius: 10px;
+    text-decoration: none;
 }
 header h2 a:hover{
     text-decoration: underline; 
@@ -44,7 +45,7 @@ header h3{
     font-size: 2vw;
     left:40vw;
     top:40vh;
-    width:30%;
+    width:20%;
 }
 /*響応式  */
 @media screen and (max-width:768px)
