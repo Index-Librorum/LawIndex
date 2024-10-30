@@ -69,14 +69,14 @@ header h3 a:hover{
         position: absolute;
         font-size: 5vw;
         left:50vw;
-        top:78vh;
+        top:75vh;
         transform:translate(-50%);
     }
     header h3 a{
         position: absolute;
         font-size: 5vw;
         left:50vw;
-        top:88vh;
+        top:83vh;
         transform:translate(-50%);
     }
 }
