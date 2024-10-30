@@ -2,18 +2,43 @@
     padding: 0;
     margin: 0;
 }
-video {
+header h1 a{
+    color:gray;
+    text-decoration: none;
     position: absolute;
-    left:1vw;
-    top:3vw;
-    width:90%;
+    left:50vw;
+    top:30vh;
+    transform:translate(-50%);
+    border:2px gray solid;
+    padding:10px 20px;
+    border-radius: 5px;
+}
+header h2 a{
+    color:aqua(101, 148, 31);
+    text-decoration: none;
+    position: absolute;
+    left:50vw;
+    top:70vh;
+    transform:translate(-50%);
+    border:2px gray solid;
+    padding:10px 20px;
+    border-radius: 5px;
 }
 /*響応式  */
 @media screen and (max-width:768px)
 {
-    video {
+    header h1 a{
         position: absolute;
-        width:100%;
-        top:20vh;
+        font-size: 4vw;
+        left:50vw;
+        top:38vh;
+        transform:translate(-50%);
+    }
+    header h2 a{
+        position: absolute;
+        font-size: 4vw;
+        left:50vw;
+        top:68vh;
+        transform:translate(-50%);
     }
 }
